@@ -15,5 +15,7 @@ source ${PX4_SRC_DIR}/catkin_ws/devel/setup.bash
 export CATKIN_SETUP_UTIL_ARGS=--extend
 export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:${PX4_SRC_DIR}/catkin_ws/src/avoidance/sim/models
 
+ls -l ${PX4_SRC_DIR}/catkin_ws/src/avoidance/sim/models
+
 source $DIR/rostest_px4_run.sh "$@"
 
